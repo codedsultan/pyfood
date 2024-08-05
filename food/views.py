@@ -6,4 +6,4 @@ def index(request):
     return HttpResponse('Hello World')
 
 def item(request):
-    return HttpResponse('Item 7')
+    return HttpResponse('<h1>Item 7</h1>')
